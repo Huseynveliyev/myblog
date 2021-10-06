@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 115px;
+    width: 100%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-top {
+    height: 80px;
+    width: 100%;
+}
+
+.brand {
+    width: 35%;
+    float: left;
+    height: 80px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.brand img {
+    width: 96px;
+    margin-top: 10px;
+}
+
+.my-contact {
+    width: 65%;
+    float: left;
+    background-color: black;
+    height: 80px;
+    color: #fff;
+}
+
+.live-chat, .my-number {
+    width: 35%;
+    float: left;
+}
+
+.my-contact i {
+    font-size: 38px;
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    margin-top: 7px;
+    margin-left: 17px;
+    float: left;
+}
+
+.live-chat h2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.live-chat h4 {
+    width: 63%;
+    position: relative;
+    bottom: 14px;
+    left: 11px;
+}
+
+.my-number h3 {
+    margin-left: 17px;
+    float: left;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.header-menu {
+    height: 35px;
+}
+
+.header-menu {
+    width: 100%;
+    background-color: rgb(211, 193, 169);
+}
+
+nav {
+    width: 50%;
+    height: 35px;
+    line-height: 4px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 58px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.search {
+    width: 16%;
+    float: left;
+    margin-top: 0;
+}
+
+.search i { 
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 9px;
+}
+
+.search input {
+    height: 35px;
+}
+
+.social-links {
+    width: 20%;
+    float: left;
+}
+
+.social-links a {
+    color: black;
+}
+
+.social-links i {
+    margin-left: 28px;
+    margin-top: 9px;
+}
+
+
+
+.my-book {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    display: grid;
+}
+
+.my-blogs {
+    width: 100%;
+    background-color: #f7efe3;
+    min-height: 1552px;
+}
+
+.main-blogs {
+    width: 65%;
+    float: left;
+    min-height: 700px;
+}
+
+.archive-blogs {
+    width: 32%;
+    float: left;
+    min-height: 1337px;
+    margin-left: 3%;
+    background-color: coral;
+    margin-top: -100px;
+}
+
+.blog-list article img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.blog-description {
+    width: 100%;
+    height: 50px;
+    background-color: #03a9f4b8;
+    display: block;
+    margin-top: -54px;
+    position: relative;
+}
+
+.blog-date {
+    width: 13%;
+    float: left;
+    height: 50px;
+    text-align: center;
+    background-color: #03a9f4;
+    color: #fff;
+}
+
+.blog-date h2, .blog-date h5 {
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.blog-title {
+    width: 80%;
+    float: left;
+    height: 50px;
+    margin-left: 3%;
+    margin-top: 11px;
+    font-size: 21px;
+    font-weight: 800;
+    color: #ffeb3b;
+}
+
+.blog-content {
+    width: 92%;
+    min-height: 50px;
+    background-color: #fff;
+    padding: 15px 4%;
+}
+
+.blog{height: 141px;
+    margin-top: -20px;
+    position: relative;
+    top: 42px;
+    left: 36px;
+    width: 89%;}
+
+.blog h1{font-size: 35px;
+    font-weight: 900;
+    font-family: ui-monospace;
+    text-decoration: underline;
+}
+.blog h6 { font-size: 12px;
+        font-family: sans-serif;}
+
+.sosial-network{color: white;
+                 font-family: cursive;}
+
+.sosial-network .man {  margin-left: 35px;
+                        width: 171px;
+                        margin-top: 29px;
+                        font-family: math;
+                        font-size: 21px;}
+
+.sosial-network i{font-size: 60px;
+                border-radius: 50%;
+                 border: 4px solid black;}
+
+.sosial-network div span {position: relative;
+                            top: -19px;
+                            left: 14px;
+                            font-size: 20px}
+
+.sosial-network div{margin-left: 19px;
+                    margin-top: 11px;}
+ 
+.popular-post {color: #fff;}
+
+.popular-post div img{width: 165px;
+                    float: left;
+                    margin-right: 10px;
+                     margin-left:7px;}
+
+.popular-post h1 {width: 120px;
+                    margin-left: 36px;
+                    font-size: 29px;}
+
+   .news-letters    {width: 80%;
+                    margin: 0 auto;
+                    height: 142px;}
+
+.news-letters h1{font-size: 35px;
+                letter-spacing: 1px;}
+
+.news-letters input {width: 241px;
+                    height: 27px;
+                    text-indent: 10px;
+                    border-radius: 14px;}
+
+.news-letters button {margin-top: 30px;
+                    background: #f3f315;
+                    padding: 10px;
+                    border-radius: 32%}
+
+.bredcramb{width: 16%;
+            background: aqua;
+            padding: 5px;
+            margin: 7px;
+            font-weight: 600;}
+
+.bredcramb a{text-decoration:none ;
+              color: black;}
+
+article{ margin-bottom: 21px;}
+
+.my-blogs .input-2 {width: 99%;
+                height: 29px;
+                text-align: center;
+                letter-spacing: 20px;}
+
+footer{width: 100%;
+        height: 300px;
+        background: #3e4463;}
+
+footer .main {width: 83%;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 100px;
+                margin-top: 83px;
+                position: absolute;
+                color: whitesmoke;} 
+
+footer .footer-image img{width: 234px;
+                         height: 150px;}   
+                         
+.contact-us h3 {font-weight: 600;
+                 color: lightgoldenrodyellow;
+                 border: 2px solid white;
+                padding: 3px;
+                letter-spacing: 1px;}     
+                

@@ -1,0 +1,53 @@
+body{margin:0}
+.container{width: 90%;
+           margin:0 auto;
+           height:50px;}
+
+.onex { display: inline-block;
+        margin-top: 10px;
+        font-size: 27px;
+        font-weight: 600;}
+
+
+
+nav{  width: 80%;
+      float: right;
+      margin-top: 0;}
+
+nav ul {list-style: none;}
+
+
+
+nav ul li{width: 11%;
+        float: right;
+        font-family: serif;}
+
+section{background-image:url(../img/Great.jpg);
+         width: 90%;
+         margin:0 auto;
+         height: 600px;}
+        
+section div {
+             margin-top: 0%;
+             padding: -10px;
+             line-height: 2;
+             position: relative;
+             top: 120px;
+             text-align: center;}
+
+#huseyn {font-size: 25;
+      letter-spacing: 5px;}
+
+span{    font-size: 59px;
+    letter-spacing: 14px;}
+
+button{background: black;
+       color: antiquewhite;
+        margin-right:25px;
+        width: 101px;} 
+
+.info{ text-align: center;
+      margin-top: 82px;}
+
+h3{font-size: 38px;}
+p{opacity:0.6} 
